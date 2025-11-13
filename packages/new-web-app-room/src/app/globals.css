@@ -26,7 +26,7 @@ html, body {
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 25%, #fff59d 50%, #ffeb3b 75%, #ffc107 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -147,3 +147,4 @@ body {
 .animate-bounce-horizontal {
   animation: bounce-horizontal 1.5s ease-in-out infinite;
 }
+
