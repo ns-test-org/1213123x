@@ -68,7 +68,7 @@ export default function Calendar() {
   };
   
   return (
-    <div className="min-h-screen bg-red-500 p-8">
+    <div className="min-h-screen bg-black p-8">
       <div className="max-w-4xl mx-auto">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
           {/* Header */}
@@ -139,5 +139,6 @@ export default function Calendar() {
     </div>
   );
 }
+
 
 
